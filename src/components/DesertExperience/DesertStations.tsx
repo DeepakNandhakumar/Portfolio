@@ -20,15 +20,15 @@ import {
   Briefcase,
   Play,
 } from 'lucide-react';
-import { LinkedinIcon, GithubIcon } from '@/components/ui/Icons';
-import { PERSONAL_INFO } from '@/data/personal';
-import { ACHIEVEMENTS_LIST } from '@/data/achievements';
-import { CERTIFICATIONS_DATA } from '@/data/certifications';
-import { WellspringSandbox } from '@/components/Projects/sandboxes/WellspringSandbox';
-import { SpanStrikeSandbox } from '@/components/Projects/sandboxes/SpanStrikeSandbox';
-import { RentCalculatorSandbox } from '@/components/Projects/sandboxes/RentCalculatorSandbox';
-import { FitNHealSandbox } from '@/components/Projects/sandboxes/FitNHealSandbox';
-import { HealthlineSandbox } from '@/components/Projects/sandboxes/HealthlineSandbox';
+import { LinkedinIcon, GithubIcon } from '../ui/Icons';
+import { PERSONAL_INFO } from '../../data/personal';
+import { ACHIEVEMENTS_LIST } from '../../data/achievements';
+import { CERTIFICATIONS_DATA } from '../../data/certifications';
+import { WellspringSandbox } from '../Projects/sandboxes/WellspringSandbox';
+import { SpanStrikeSandbox } from '../Projects/sandboxes/SpanStrikeSandbox';
+import { RentCalculatorSandbox } from '../Projects/sandboxes/RentCalculatorSandbox';
+import { FitNHealSandbox } from '../Projects/sandboxes/FitNHealSandbox';
+import { HealthlineSandbox } from '../Projects/sandboxes/HealthlineSandbox';
 
 interface DesertStationsProps {
   activeStationIndex: number;

@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { motion } from 'framer-motion';
-import { DesertRunnerScene } from '@/scenes/DesertRunnerScene';
+import { DesertRunnerScene } from '../../scenes/DesertRunnerScene';
 import { FreezeLockScreen } from './FreezeLockScreen';
 import { DesertStations } from './DesertStations';
-import { ResumeModal } from '@/components/Resume/ResumeModal';
-import { CustomCursor } from '@/components/ui/CustomCursor';
+import { ResumeModal } from '../Resume/ResumeModal';
+import { CustomCursor } from '../ui/CustomCursor';
 
 export const DesertOdyssey: React.FC = () => {
   const [isUnlocked, setIsUnlocked] = useState(false);

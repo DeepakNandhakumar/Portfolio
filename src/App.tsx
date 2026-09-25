@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { DesertOdyssey } from '@/components/DesertExperience/DesertOdyssey';
+import React from 'react';
+import { DesertOdyssey } from './components/DesertExperience/DesertOdyssey';
 
 export const App: React.FC = () => {
   return <DesertOdyssey />;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUp, Play, Sparkles, ChevronDown, Compass, Lock, Unlock } from 'lucide-react';
-import { PERSONAL_INFO } from '@/data/personal';
+import { PERSONAL_INFO } from '../../data/personal';
 
 interface FreezeLockScreenProps {
   isUnlocked: boolean;
