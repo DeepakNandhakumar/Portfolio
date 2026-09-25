@@ -18,10 +18,10 @@ import {
   Copy,
   Check,
 } from 'lucide-react';
-import { LinkedinIcon, GithubIcon } from '@/components/ui/Icons';
-import { PERSONAL_INFO, SOCIAL_LINKS } from '@/data/personal';
-import { ACHIEVEMENTS_LIST } from '@/data/achievements';
-import { CERTIFICATIONS_DATA } from '@/data/certifications';
+import { LinkedinIcon, GithubIcon } from '../ui/Icons';
+import { PERSONAL_INFO, SOCIAL_LINKS } from '../../data/personal';
+import { ACHIEVEMENTS_LIST } from '../../data/achievements';
+import { CERTIFICATIONS_DATA } from '../../data/certifications';
 
 interface ResumeModalProps {
   isOpen: boolean;

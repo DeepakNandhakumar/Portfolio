@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { prefersReducedMotion } from '@/utils/performance';
+import { prefersReducedMotion } from '../../utils/performance';
 
 export const CustomCursor: React.FC = () => {
   const [mousePos, setMousePos] = useState({ x: -100, y: -100 });
